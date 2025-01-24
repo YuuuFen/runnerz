@@ -24,9 +24,7 @@ public class Application {
 	@Bean
 	CommandLineRunner runner() {
 		return args -> {
-			log.info("Application started");
-			Run run = new Run(1, "First Run", LocalDateTime.now(), LocalDateTime.now().plus(1, ChronoUnit.HOURS), 3, Location.OUTDOOR);
-//			log.info(run.toString());
+			log.info("Application started. (*^____^*) ");
 		};
 	}
 }
